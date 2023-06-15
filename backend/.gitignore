@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# yarn error logs
+yarn-error.log
+
+# Environment varibales
+.env*
+!.env*.example
+
+# Code coverage
+coverage
+
+.idea
+
+sapnwrfc.ini
+dev_rfc.log
+
+dist
+
+# EC early version requirement
+storages/profiles
+storages/upload
+storages/accepted
+storages/obsoleted_codes
+src/app_dev_test.js
